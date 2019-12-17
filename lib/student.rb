@@ -56,7 +56,7 @@ class Student
       new_student = self.new(name, grade)
 
       new_student.id = row[0]
-      new_student.save
+/
 
 
   end
