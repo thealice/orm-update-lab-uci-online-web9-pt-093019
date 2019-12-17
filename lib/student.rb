@@ -4,7 +4,7 @@ require 'pry'
 class Student
   attr_accessor :id, :name, :grade
 
-  def initialize(name, grade, id=nil)
+  def initialize(id=nil, name, grade)
     @name = name
     @grade = grade
     @id = id
