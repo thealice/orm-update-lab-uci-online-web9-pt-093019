@@ -55,7 +55,7 @@ class Student
     grade = attributes[1]
     new_student = self.new(name, grade)
     new_student.save
-    
+
   end
 
   # Remember, you can access your database connection anywhere in this class
