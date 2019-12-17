@@ -54,7 +54,7 @@ class Student
       name = row[1]
       grade = row[2]
       new_student = self.new(name, grade)
-      binding.pry
+
       new_student.id = row[0]
       new_student.save
 
