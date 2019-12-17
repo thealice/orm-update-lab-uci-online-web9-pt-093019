@@ -51,9 +51,9 @@ class Student
   end
 
   def self.new_from_db(attributes)
-    new_student = self.new
-    new_student.name = attributes[0]
-    new_student.grade = attributes[1]
+    name = attributes[0]
+    grade = attributes[1]
+    new_student = self.new(name, grade)
     new_student.save
     
   end
