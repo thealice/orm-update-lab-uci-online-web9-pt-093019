@@ -60,7 +60,7 @@ class Student
       FROM students
       WHERE name = ?
     SQL
-    DB[:conn].execute(sql, name)
+    DB[:conn].execute(sql, name).first
   end
 
   # Remember, you can access your database connection anywhere in this class
