@@ -57,7 +57,6 @@ class Student
       binding.pry
       new_student.id = row[0]
       new_student.save
-    end
 
 
   end
